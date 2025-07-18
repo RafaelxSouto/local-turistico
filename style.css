@@ -1,3 +1,164 @@
-img {
-    width: 150px;
+/* Reset global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Configurações Globais */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Container */
+.container {
+  margin: 84px auto 0;
+  max-width: 1120px;
+}
+
+/* Header */
+header {
+  margin-bottom: 44px;
+}
+
+header span {
+  text-transform: uppercase;
+  color: #e1624f;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+header h1 {
+  text-transform: capitalize;
+  color: #1b1b1b;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+/* Section Hero */
+.hero img {
+  width: 1120px;
+  height: 660px;
+  border-radius: 28px;
+  margin-bottom: 24px;
+}
+
+.hero p {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* HR --- */
+.hero + hr {
+  margin: 40px 0 64px 0;
+}
+
+/* Section lista */
+
+ol > li {
+    list-style: none;
+}
+
+/* Remove o recuo (espaçamento à esquerda) das listas */
+ol,
+.card-tags ul {
+  padding-left: 25px;
+  list-style: disc;
+}
+
+hr {
+    margin: 40px 0;
+}
+
+.title-list {
+  margin-bottom: 64px;
+}
+
+.title-list span {
+  text-transform: uppercase;
+  color: #e1624f;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+.title-list h2 {
+  font-weight: 700;
+  font-style: bold;
+  font-style: 32px;
+  margin-bottom: 8px;
+}
+
+.title-list p {
+  font-weight: 400;
+}
+
+.card-tags {
+    margin-bottom: 48px;
+}
+
+.card-tags span {
+    font-weight: bold;
+}
+
+ol {
+padding-left: 0;
+}
+
+.card-tags ul {
+    padding-left: 25px;
+    list-style: disc;
+}
+
+ol img {
+  width: 1120px;
+  height: 350px;
+  border-radius: 28px;
+  margin-bottom: 20px;
+}
+
+ol h3 {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 4px;
+}
+
+.card-tags {
+    margin-top: 20px;
+}
+
+li > span {
+    color: #0C51A7;
+}
+
+.casal span {
+    color: #591B98;
+}
+
+.familia span{
+    color: #E5245E;
+}
+
+.orcamento span{
+    color: #E95E10;
+}
+
+/* Section description */
+.description p {
+    margin-bottom: 69px;
+}
+
+
+/* Footer */
+footer {
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Alice', sans-serif;
+  gap: 4px;
+  margin-bottom: 48px;
+  max-width: 1120px;
 }
